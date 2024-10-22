@@ -24,7 +24,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body className={`${inter.variable} antialiased dark`}>
         <Navbar />
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   );
