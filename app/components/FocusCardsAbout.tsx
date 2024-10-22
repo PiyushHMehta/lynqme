@@ -1,6 +1,6 @@
 import { FocusCards } from "@/components/ui/focus-cards";
 
-export function FocusCardsUserManual() {
+export function FocusCardsAbout() {
     const cards = [
         {
             title: "Majestic Mountains",
@@ -28,7 +28,7 @@ export function FocusCardsUserManual() {
             description: "Immerse yourself in the peacefulness of lush green valleys.",
         },
         {
-            title: "The First Rule",
+            title: "Being Schizophrenic",
             src: "https://assets.aceternity.com/the-first-rule.png",
             description: "Embrace adventure with the essential rule: always be prepared.",
         },

@@ -20,8 +20,8 @@ export default function Navbar() {
             <Link href="/connect" className="text-foreground hover:text-primary">
               Connect Device
             </Link>
-            <Link href="/user-manual" className="text-foreground hover:text-primary">
-              User Manual
+            <Link href="/about" className="text-foreground hover:text-primary">
+              About
             </Link>
             <Link href="/pricing" className="text-foreground hover:text-primary">
               Pricing & Products
