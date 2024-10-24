@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Navbar() {
   return (
-    <nav className="bg-background border-b border-border text-foreground z-10">
+    <nav className="navbar bg-background border-b border-border text-foreground z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -33,10 +33,10 @@ export default function Navbar() {
 
           {/* Call to Action (Sign In/Sign Up) */}
           <div className="hidden sm:flex items-center space-x-4">
-            <Link href="/login" className="bg-primary text-primary-foreground px-4 py-2 rounded-md hover:bg-secondary">
+            <Link href="/login" className="bg-primary text-primary-foreground px-4 py-2 rounded-md ">
               Sign In
             </Link>
-            <Link href="/signup" className="bg-secondary text-secondary-foreground px-4 py-2 rounded-md hover:bg-primary">
+            <Link href="/signup" className="bg-secondary text-secondary-foreground px-4 py-2 rounded-md ">
               Sign Up
             </Link>
           </div>

@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 
@@ -8,6 +8,12 @@ const World = dynamic(() => import("@/components/ui/globe").then((m) => m.World)
 });
 
 export function GlobeConnectivity() {
+    const [isMounted, setIsMounted] = useState(false)
+
+    useEffect(() => {
+        setIsMounted(true)
+    }, [])
+
     const globeConfig = {
         pointSize: 4,
         globeColor: "#062056",
@@ -393,6 +399,8 @@ export function GlobeConnectivity() {
             color: colors[Math.floor(Math.random() * (colors.length - 1))],
         },
     ];
+
+    if(!isMounted) return
 
     return (
         (<div

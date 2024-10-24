@@ -67,3 +67,12 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Example for a sticky navbar */
+.navbar {
+  position: fixed; /* Keeps navbar at the top */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* High z-index */
+}
