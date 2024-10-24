@@ -4,7 +4,7 @@ import { WobbleCard } from "@/components/ui/wobble-card";
 
 export function MiscWobbleCard() {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-7xl mx-auto my-[3rem] w-[90%]">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 max-w-7xl mx-auto my-[3rem] w-[90%] mt-[7rem]">
             <WobbleCard
                 containerClassName="col-span-1 lg:col-span-2 h-full bg-pink-800 min-h-[200px] lg:min-h-[250px] relative"
             >
