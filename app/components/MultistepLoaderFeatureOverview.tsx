@@ -36,7 +36,7 @@ export function MultiStepLoaderFeatureOverview() {
     return (
         <div className="w-full h-[60vh] flex items-center justify-center -mt-20 mb-[7rem]">
             {/* Core Loader Modal */}
-            <Loader loadingStates={loadingStates} loading={loading} duration={700} />
+            <Loader loadingStates={loadingStates} loading={loading} duration={900} />
 
             {/* The buttons are for demo only, remove it in your actual code ⬇️ */}
             <button
@@ -52,7 +52,7 @@ export function MultiStepLoaderFeatureOverview() {
 
             {loading && (
                 <button
-                    className="fixed top-4 right-4 text-black dark:text-white z-[120]"
+                    className="fixed top-20 right-20 text-black dark:text-white z-[1200]"
                     onClick={() => setLoading(false)}
                 >
                     <IconSquareRoundedX className="h-10 w-10" />
