@@ -14,7 +14,7 @@ export function SafetyAndSecurity() {
       <div className="text-4xl mx-auto font-normal text-neutral-600 dark:text-neutral-400">
         Your data is
         <FlipWords words={words} /> <br />
-        with Lynq's advanced security.
+        with LynqMe's advanced security.
       </div>
     </div>
   );

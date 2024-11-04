@@ -5,7 +5,7 @@ import { IconSquareRoundedX } from "@tabler/icons-react";
 
 const loadingStates = [
     {
-        text: "Introducing LYNQ: Your smart wearable companion.",
+        text: "Introducing LynqMe: Your smart wearable companion.",
     },
     {
         text: "SOS Emergency Alert - Immediate help at the press of a button.",
@@ -26,7 +26,7 @@ const loadingStates = [
         text: "Waterproof - Ready for any adventure, anywhere.",
     },
     {
-        text: "LYNQ: Designed for safety, adventure, and connectivity.",
+        text: "LynqMe: Designed for safety, adventure, and connectivity.",
     },
 ];
 

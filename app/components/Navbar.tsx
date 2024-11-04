@@ -8,7 +8,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="text-xl font-semibold text-primary">
-              LYNQ
+              LynqMe
             </Link>
           </div>
 
